@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    margin: 0;
 }
 
 .title, .subtitle, .footer {
@@ -79,6 +80,8 @@ a {
     display: flex;
     flex-direction: column;
     background-color: white;
+    align-items: center;
+    padding: 16px 0px;
   }
 
 .container-title {
@@ -86,14 +89,14 @@ a {
     font-weight: 800;
     color: #1F2937;
     padding: 16px;
-    align-self: center;
+    margin: 0;
   }
 
 .boxes {
     display: flex;
-    margin: 0px 300px;
-    align-self: center;
-    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
 .card-wrapper {
@@ -109,12 +112,11 @@ a {
     width: 100px;
     height: 100px;
     padding: 16px;
-
-
   }
 
 .card-text {
     text-align: center;
+    width: 150px;
 }
 
 .quote {
